@@ -1,0 +1,26 @@
+ESTRUCTURA LÓGICA DE UN DISCO DURO:
+
+•Hemos definido que cada una de las superficies del Disco(Plato) se denomina (Cara) inferior/superior, esta a su vez se divide en una serie de anillos concéntricos, denominados (Pistas) a su vez las pistas son divididas (sectores); otro concepto importante es el de (Cilindro), usado para describir la misma pista sobre cada uno de los discos (platos) que conforman el disco duro y por ultimo el termino (cluster – unidades de asignación) que es la agrupación de varios sectores cuyo tamaño puede variar (512, 1024,2048, 4096…)
+
+•Las cabezas y cilindros comienzan a numerarse desde el cero y los sectores desde el uno. En consecuencia, el primer sector de un disco duro será el correspondiente a la cabeza 0, cilindro 0 y sector 1.
+
+Hay varios conceptos para referirse a las partes del disco:
+•Plato: Cada uno de los discos que hay dentro del disco duro.
+•Cara: Cada uno de los dos lados de un plato.
+•Cabeza – Head: Número de cabezas de Lectura/Escritura.
+•Pista – Track: Una circunferencia dentro de una cara; la pista 0 está en el borde exterior.
+•Cilindro: Conjunto de varias pistas; son todas las circunferencias que están alineadas verticalmente (una de cada cara).
+
+Hay varios conceptos para referirse a las partes del disco:
+•Sector : Cada una de las divisiones de una pista. El tamaño del sector no es fijo, siendo el estándar actual 512 bytes. Antiguamente el número de sectores por pista era fijo, lo cual desaprovechaba el espacio significativamente, ya que en las pistas exteriores pueden almacenarse más sectores que en las interiores. Los sectores son las unidades mínimas de información que puede leer o escribir un disco duro.
+•Cluster: agrupación de varios sectores.
+
+Capacidad de un Disco Duro…
+
+Capacidad de un Disco Duro
+•Cilindros
+•Cabezas
+•Sectores
+•Bytes por sector
+•Total Sectores Direccionables= Cilindros * cabezas *sector
+•Capacidad= Total sectores direccionables *Bytes por sector
